@@ -9,7 +9,7 @@
 body {
     height: 100vh;
     /*background: linear-gradient(120deg,  #E74C3C, #7D3C98 );*/
-    background-color: #D0D3D4  ;
+    background-color: #2874A6 ;
     display: flex;
     flex-direction: column;
     justify-content: center;/* centro da tela*/
@@ -22,7 +22,7 @@ body {
     justify-content: space-around;
     height: 200px;
     width: 550px;
-    background: #AEB6BF ;
+    background: white;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(52, 73, 94 );
 }
@@ -59,7 +59,7 @@ body {
 .btn-tema {
     height: 60px;
     width: 60px;
-    background-color: #AEB6BF;
+    background-color: white;
     margin-top: 100px;
     display: flex;
     align-items: center;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn-tema svg:hover {
-    color: #AEB6BF;
+    color: white;
     cursor: pointer;
 }
 
