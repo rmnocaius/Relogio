@@ -11,6 +11,7 @@ body {
     /*background: linear-gradient(120deg,  #E74C3C, #7D3C98 );*/
     background-color: #D0D3D4  ;
     display: flex;
+    flex-direction: column;
     justify-content: center;/* centro da tela*/
     align-items: center; /* meio da tela*/
 }
@@ -41,7 +42,7 @@ body {
 
 .relogio div:hover {
     background-color: #2C3E50 ;
-    transition: 0.3s;
+    transition: 0.1s;
     height: 175px;
     width: 155px;
 }
@@ -53,5 +54,48 @@ body {
 
 .relogio span.tempo {
     font-size: 20px;
+}
+
+.btn-tema {
+    height: 60px;
+    width: 60px;
+    background-color: #AEB6BF;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+.btn-tema:hover {
+    height: 62px;
+    transition: 1s;
+    width: 62px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgba(23, 32, 42 );
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+.btn-tema svg {
+    height: 50px;
+    width: 30px;
+    color: rgba(23, 32, 42 );
+    cursor: pointer;
+    transition: .9s;
+}
+
+.btn-tema svg:hover {
+    color: #AEB6BF;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: none;
 }
 
